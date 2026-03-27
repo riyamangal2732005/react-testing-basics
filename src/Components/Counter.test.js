@@ -16,7 +16,7 @@ test('increments the count when the button is clicked', () => {
     // Act(action: clicking the button)
     fireEvent.click(button);
 
-    // aeert: cheking if it changed to '1';
+    // assert: cheking if it changed to '1';
     expect(display.textContent).toBe("1");
 
     screen.debug();

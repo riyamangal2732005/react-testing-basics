@@ -11,6 +11,8 @@ const SearchInput = ({placeholder}) => {
     return (
         <div className="search-container">
             <input type="text" placeholder={placeholder} value={value} onChange={handleChange}/>
+
+            <h2 style={{ marginTop: '10px', color: 'blue'}}>Current Typing: {value}</h2>
         </div>
     );
 };
